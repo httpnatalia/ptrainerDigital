@@ -1,0 +1,38 @@
+body {
+
+}
+.titulo-principal {
+text-align: center;
+font-style: oblique;
+color: #000000;
+}
+#foto-inicial {
+    width: 100%;
+}
+.principal {
+    background-color: #c2c2c2;
+    padding: 30px;
+}
+.titulo-centralizado {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.beneficios {
+    background-color: #ffffff;
+  padding: 20px;
+}
+
+.lista {
+    font-style: italic;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+.imagem-beneficios {
+    width: 40%;
+}
