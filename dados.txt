@@ -1,0 +1,11 @@
+paleta de cores
+.color1 {color: #000004;}
+.color2 {color: #363743;}
+.color3 {color: #377e6e;}
+.color4 {color: #bbd1b3;}
+.color5 {color: #e0e0c4;}
+
+main
+Localizado em Brusque-SC o TEAM SAMUKA atente seus alunos não somente presencialmente, a equipe conta com uma estrutura online para acompanhar você em qualquer lugar do mundo!
+Não pense duas vezes, inicie hoje a prática de exercícios físicos e tenha um estilo de vida saudável.
+Nosso corpo está em constante adaptação, por isso, entenda seus limites e diariamente tente superá-los!
