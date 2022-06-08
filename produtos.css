@@ -3,17 +3,21 @@ header {
     padding: 20px 0;
 }
 
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+.imagem-caixa {
+    object-fit: none;
+    height: 150px;
+    width: 400px;
 }
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
+.caixa {
+        position: relative;
+        margin: 20px 40px 20px 100px
+}
 
+.nav-caixa {
+    position: absolute;
+    top: 40%;
+    right: 0;
 }
 
 nav li {
@@ -89,15 +93,21 @@ nav a:hover{
     color: #377e6e;
 }
 
-
 footer {
     text-align: center;
     background: #e0e0c4;
-    padding: 40px 0;
+    padding: 10px 0;
+    height: 180px;
+}
+
+.img-rodape {
+    object-fit: none;
+    width: 120px;
+  height: 120px;
 }
 
 .copyright {
     color: #377e6e;
     font-size: 13px;
-    margin: 20px 0;
+    margin: 0;
 }
