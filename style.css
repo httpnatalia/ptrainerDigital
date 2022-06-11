@@ -1,7 +1,10 @@
 header {
     background: #bbd1b3;
     padding: 20px 0;
+    border-radius: 3vw 4vw 10vw 2vw;
+    box-shadow: 0 0 0.25em 0.25em #e0e0c4;
 }
+
 .imagem-caixa {
     object-fit: none;
     height: 150px;
@@ -9,11 +12,11 @@ header {
 }
 
 .caixa {
-    position: relative;
-    margin: 20px 40px 20px 100px
+        position: relative;
+        margin: 20px 40px 20px 100px
 }
 
-.nav-caixa ul {
+.nav-caixa {
     position: absolute;
     top: 40%;
     right: 0;
@@ -37,37 +40,60 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.principal p {
-    padding: 10px;
-    font-size: 15px;
-    text-align: center;
-}
-.titulo-centralizado {
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
+.produtos {
+    color: #363743;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
 }
 
-.beneficios {
-  padding: 20px;
-}
-.imagem-beneficios {
-    width: 50%;
-} 
-
-.lista {
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 15px;
-    padding: 10px 50px;
-}
- .ul-beneficios {
+.produtos li {
     display: inline-block;
-    vertical-align: top;
+    text-align: center;
     width: 30%;
-    margin-right: 15%;
-} 
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 2px solid #bbd1b3;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    background:#bbd1b3;
+    border-color:#377e6e
+
+}
+
+.produtos li:active {
+    border-color:#bbd1b3;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    color: #000004;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.asterisco {
+    font-size: 10px;
+    font-weight: bolder;
+    color: #377e6e;
+}
 
 footer {
     text-align: center;
@@ -86,4 +112,29 @@ footer {
     color: #377e6e;
     font-size: 13px;
     margin: 0;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px; 
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
