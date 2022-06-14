@@ -179,16 +179,13 @@ th {
 
 /* css da página incial*/
 .titulo-principal {
+    padding: 10px;
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
 }
 
-
-.principal p {
-    margin: 0 0 1em;
-}
 
 .principal p {
     margin: 0 0 1em;
@@ -207,7 +204,11 @@ th {
     float: left;
     margin:0 20px 0 20px;
 }
-
+.foto-main:hover {
+    width: 300px;
+    float: left;
+    margin:0 20px 0 20px;
+}
 .foto-beneficios {
     width: 60%;
 }
