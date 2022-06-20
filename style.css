@@ -43,6 +43,9 @@ nav a:hover{
     color: #377e6e;
     text-decoration: underline;
 }
+.conteudo-produtos {
+    background:linear-gradient(white,#fefefe, #bbd1b3);
+}
 
 .produtos {
     color: #363743;
@@ -119,11 +122,14 @@ footer {
 }
 
 /* css da página contato*/
-.conteudo-formulario {
+
+.conteudo-contato{
+    background:linear-gradient(white,#fefefe, #bbd1b3);
+}
+.conteudo-formulario{
     width: 940px;
     margin: 0 auto;
 }
-
 form {
     margin: 40px 0;
 }
@@ -164,7 +170,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 0;
 }
 
 thead {
@@ -189,11 +195,11 @@ th {
 }
 
 .principal{
-    background:linear-gradient(#e0e0c4,#fefefe,);
+    background: white;
 }
 .principal-conteudo {
     width: 940px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .principal p {
@@ -220,13 +226,13 @@ th {
 }
 
 .beneficios {
-    margin: -20px;
+   margin-top: -20px;
     padding: 3em 0;
-    background: linear-gradient(#fefefe,#bbd1b3);
+    background: linear-gradient(white,#e0e0c4,#bbd1b3);
 }
 
 .conteudo-beneficios {
-    width: 640px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -248,7 +254,7 @@ th {
 
 .mapa {
     padding: 3em 0;
-   background:linear-gradient(#bbd1b3,#377e6e); 
+   background: #bbd1b3;
 }
 
 .mapa-conteudo{
