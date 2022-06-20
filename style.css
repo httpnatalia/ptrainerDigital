@@ -244,6 +244,9 @@ th {
 .lista{
     line-height: 1.5;
 }
+.lista:before{
+    content: "⭢";
+}
 .lista:first-child{
     font-weight: bold;
 }
