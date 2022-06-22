@@ -252,8 +252,15 @@ th {
 }
 
 .foto-beneficios {
-    width: 60%;
+    width: 40%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #363743
 }
+.foto-beneficios:hover {
+    opacity: 0.3;
+}
+
 
 .mapa {
     padding: 3em 0;
