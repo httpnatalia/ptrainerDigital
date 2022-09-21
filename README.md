@@ -8,3 +8,6 @@ ptTrainerDigital foi desenvolvido usando HTML e CSS.
 
 ## 📋 Finalidade:
 Esse site tem uma maneira simples e funcional para que clientes tenham fácil acesso as informações que precisam, tais como: produtos, valores, localização e contato.
+<div align="center">
+<img src="" width="700px" />
+</div>
